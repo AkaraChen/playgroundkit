@@ -1,0 +1,35 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/core:
+    dependencies:
+      '@typescript/ata':
+        specifier: ^0.9.7
+        version: 0.9.7(typescript@5.5.4)
+
+packages:
+
+  '@typescript/ata@0.9.7':
+    resolution: {integrity: sha512-CZx57/XGBKhYZ3ifchbERgUl9J6C7W3XC96ibM7axr7C32mG5dXTyrVAS3ZY88Jxlkvx4AZyZtDJyUuseHQkcQ==}
+    peerDependencies:
+      typescript: '>=4.4.4'
+
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  '@typescript/ata@0.9.7(typescript@5.5.4)':
+    dependencies:
+      typescript: 5.5.4
+
+  typescript@5.5.4: {}
